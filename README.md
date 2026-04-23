@@ -1,10 +1,10 @@
 # Juan Antonio Monleón de la Lluvia — Résumé
 
-**Nuclear Engineer · PhD Student in Neutronics @ IRSN, France**
+**Nuclear Engineer · PhD Student in Neutronics @ ASNR (formerly IRSN), France**
 
 Uncertainty quantification and variance-reduction techniques for reactor-vessel
-ageing. Hands-on with MCNP, Serpent, NJOY and ADVANTG, and Python for nuclear
-data / machine-learning workflows.
+ageing. Hands-on with MCNP, Serpent, OpenMC, NJOY and ADVANTG, and Python for
+nuclear data / machine-learning workflows.
 
 📄 **[Download the résumé (PDF)](Resume.pdf)** &nbsp;·&nbsp;
 🌐 **[View the HTML version](https://juanmonleon.github.io/Resume/)** &nbsp;·&nbsp;
@@ -52,14 +52,26 @@ data / machine-learning workflows.
 
 ---
 
-## Building the résumé locally
+## Working on the résumé locally
 
-The HTML version is a static page — just open `index.html` in any browser.
-To regenerate `Resume.pdf` and the preview images after editing the source:
+The site is a single static HTML file — pick whichever preview workflow you like:
 
-```bash
-# 1. Export PDF from the browser: print index.html → "Save as PDF" → Resume.pdf
-# 2. Re-render the page previews used in this README:
-gs -sDEVICE=png16m -r150 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 \
-   -o assets/resume_page_%d.png Resume.pdf
-```
+- **VS Code + Live Server** *(recommended — auto-reloads on save)*: install the
+  [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  extension, right-click `index.html` → *Open with Live Server*.
+- **Zero-install terminal**: `python3 -m http.server 8000`, then open
+  <http://localhost:8000>. Manual refresh on each save.
+- **No server at all**: just open `index.html` directly in a browser.
+
+## Regenerating `Resume.pdf` and the previews
+
+1. Open the local preview above and use the browser's **Print → Save as PDF**
+   (A4, margins: *Default*, background graphics: *on*) to overwrite
+   `Resume.pdf`.
+2. Re-render the page thumbnails embedded in this README:
+
+   ```bash
+   gs -sDEVICE=png16m -r150 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 \
+      -o assets/resume_page_%d.png Resume.pdf
+   mogrify -trim -bordercolor white -border 20 assets/resume_page_*.png
+   ```

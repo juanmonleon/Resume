@@ -1,12 +1,24 @@
+:root {
+    --accent: #b8860b; /* muted goldenrod — sparingly used against the primary navy */
+    --navy: #2c3e50;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     max-width: 960px;
     margin: auto;
     background-color: #fafafa; /* Light Gray background for the whole page */
     color: #333333; /* Dark Gray text for better readability */
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+}
+
+/* Tighter body size for print: 13px is comfortable on screen but oversized on A4 */
+@media print {
+    body {
+        font-size: 11px;
+    }
 }
 
 h1 {
@@ -32,10 +44,12 @@ h1 strong {
 /* Consistent h2 Styling */
 h2 {
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0.4em;
     color: #2c3e50; /* Navy color for subheadings */
     margin-top: 0; /* Reset top margin */
-    margin-bottom: 0.5em; /* Consistent bottom margin */
+    margin-bottom: 0.8em; /* Consistent bottom margin */
+    border-bottom: 2px solid var(--accent); /* accent underline */
+    display: inline-block;
 }
 
 
@@ -64,7 +78,7 @@ main {
 
 header {
     text-align: center;
-    margin: auto 2em;
+    margin: 0;
     padding: 1em 0;
     background-color: #2c3e50; /* Navy background for the header */
     color: #ffffff; /* White text for contrast */
@@ -74,7 +88,43 @@ header {
 }
 
 section {
-    margin: auto 1em 3em 2em;
+    margin: auto 1em 2em 2em;
+}
+
+.subsection-label {
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.9em;
+    margin: 0.8em 0 0.3em;
+}
+
+/* Community & Memberships entries (left column) */
+.community-entry {
+    margin-bottom: 0.6em;
+}
+.community-entry .community-info {
+    margin: 0.1em 0 0;
+    color: #555;
+}
+
+/* References — compact 3-column grid at the end of the right column */
+.references-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.reference-entry p {
+    margin: 0;
+    line-height: 1.35;
+}
+.reference-entry .reference-affiliation {
+    color: #555;
+    font-size: 0.95em;
+}
+.reference-entry .reference-email {
+    margin-top: 0.2em;
+    word-break: break-all;
 }
 
 .contact-section {
@@ -88,7 +138,7 @@ section {
 #mainLeft {
     border-right: 1px solid #e0e0e0; /* Light gray border */
     background-color: #f0f4f8; /* Soft blue background for the left sidebar */
-    padding: 1em;
+    padding: 0.75em;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
 }
@@ -125,6 +175,14 @@ strong {
     color: #2c3e50; /* Navy color for bold text */
 }
 
+code {
+    font-family: 'Consolas', 'Menlo', 'Courier New', monospace;
+    font-size: 0.92em;
+    background-color: rgba(184, 134, 11, 0.08);
+    padding: 0 0.25em;
+    border-radius: 3px;
+}
+
 /* List Styling */
 ul {
     padding-left: 1.2em;
@@ -145,6 +203,8 @@ ul li {
     content: "-";
     position: absolute;
     left: -1em;
+    color: var(--accent);
+    font-weight: bold;
 }
 
 .publications-list {
@@ -335,20 +395,25 @@ a {
         border-radius: 0; /* Remove rounded corners */
     }
 
-    /* Force About Me and Work Experience to stay together on the first page */
-    .about-section,
-    .work-experience-section {
+    /* Let large blocks paginate; only keep small logical units together. */
+    .education-entry,
+    .award-entry,
+    .community-entry,
+    .publication-item,
+    .training-item {
         page-break-inside: avoid;
     }
 
-    /* Correct the page-break-before to target only the Languages section */
-    .languages-section { /* Languages section */
-        page-break-before: always;
+    /* Keep subsection titles with the content that follows */
+    h3,
+    .subsection-label {
+        page-break-after: avoid;
+        break-after: avoid;
     }
 
-    .awards-section {
-        page-break-inside: avoid;  /* Prevent Awards from breaking across pages */
-        page-break-before: avoid;  /* Prevent Awards from starting on a new page */
+    /* Don't clip the grid when paginating; let content flow naturally across pages */
+    main {
+        overflow: visible !important;
     }
 
     /* Uniform Link Colors in Print */

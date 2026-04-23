@@ -3,13 +3,25 @@
 **Nuclear Engineer · PhD Student in Neutronics @ ASNR (formerly IRSN), France**
 
 Uncertainty quantification and variance-reduction techniques for reactor-vessel
-ageing. Hands-on with MCNP, Serpent, OpenMC, NJOY and ADVANTG, and Python for
-nuclear data / machine-learning workflows.
+ageing. Hands-on with MCNP, Serpent, OpenMC, NJOY and ADVANTG; active member
+of the JEFF and SINBAD nuclear-data communities. Lead developer of **KIKA**, a
+cross-platform desktop application (Tauri + React + FastAPI) for nuclear-data
+visualization, sensitivity analysis, and uncertainty quantification, built on
+top of the open-source [**kika-nd**](https://github.com/juanmonleon/kika)
+Python library (PyPI).
 
 📄 **[Download the résumé (PDF)](Resume.pdf)** &nbsp;·&nbsp;
 🌐 **[View the HTML version](https://juanmonleon.github.io/Resume/)** &nbsp;·&nbsp;
 💼 **[LinkedIn](https://linkedin.com/in/juanantonio-monleondelalluvia)** &nbsp;·&nbsp;
 ✉️ **[juanmonleon96@gmail.com](mailto:juanmonleon96@gmail.com)**
+
+## Selected publication
+
+**J. A. Monleon de la Lluvia, M. Brovchenko, D. Rochman, E. Dumonteil**,
+"[Towards Efficient Nuclear Data Uncertainty Quantification in Radiation
+Shielding Calculations](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048)",
+*Nuclear Science and Engineering*, 2025. &nbsp;·&nbsp;
+[pre-print PDF](files/Monleon_2025_NSE_preprint.pdf)
 
 ---
 
@@ -22,11 +34,10 @@ nuclear data / machine-learning workflows.
 </p>
 
 <details>
-<summary>See pages 2 and 3</summary>
+<summary>See page 2</summary>
 
 <p align="center">
   <img src="assets/resume_page_2.png" alt="Résumé preview — page 2" width="720">
-  <img src="assets/resume_page_3.png" alt="Résumé preview — page 3" width="720">
 </p>
 
 </details>
@@ -44,11 +55,12 @@ nuclear data / machine-learning workflows.
 
 ### Supporting documents
 
-- **Conference paper** — [Sensitivity Analysis and Uncertainty Quantification in PWR Irradiation Ageing-like problems](files/2024-11_RPSD_Conference.pdf) · ANS Winter Conference RPSD, Orlando (Nov 2024)
-- **Master's thesis** — [Reducing Spectrum-Driven Uncertainties with Variance Reduction Techniques](<files/Reducing Spectrum-Driven Uncertainties with Variance Reduction Techniques.pdf>) · SCK CEN, Belgium
-- **Master thesis research** — [Enhancing the EXFOR nuclear data library with Machine Learning Techniques](<files/Enhancing the EXFOR nuclear data library with Machine Learning Techniques.pdf>)
-- **Award-winning poster** — [JdT 2024 Poster (IRSN)](files/MONLEON_Poster_JdT24.pdf)
-- **Degree certificates** — [MII](files/Titulo_MII.pdf) · [MUCTN](files/Titulo_MUCTN.pdf) · [GITI](files/Titulo_GITI.pdf)
+- **Journal paper (2025)** — [Towards Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](files/Monleon_2025_NSE_preprint.pdf) · *Nuclear Science and Engineering* · [DOI](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048)
+- **Conference paper** — [Sensitivity Analysis and Uncertainty Quantification in PWR Irradiation Ageing-like problems](files/Monleon_2024_RPSD_conference.pdf) · ANS Winter Conference RPSD, Orlando (Nov 2024)
+- **Master's thesis** — [Reducing Spectrum-Driven Uncertainties with Variance Reduction Techniques](files/Monleon_2023_MasterThesis_SCK-CEN.pdf) · SCK CEN, Belgium
+- **Master thesis research** — [Enhancing the EXFOR nuclear data library with Machine Learning Techniques](files/Monleon_2023_MasterResearch_UPM.pdf)
+- **Award-winning poster** — [JdT 2024 Poster (IRSN)](files/Monleon_2024_JdT_poster.pdf)
+- **Degree certificates** — [MII](files/Monleon_Master_MII_UPM.pdf) · [MUCTN](files/Monleon_Master_MUCTN_UPM.pdf) · [GITI](files/Monleon_Bachelor_GITI_UPM.pdf)
 
 ---
 

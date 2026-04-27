@@ -318,6 +318,11 @@ ul li {
     margin-bottom: 2em;  /* Add more space after each list */
 }
 
+.thesis-title {
+    margin: 0 0 0.6em 0;
+    color: #333;
+}
+
 .work-entry h3:not(:first-of-type) {
     margin-top: 1em;  /* Add space before each h3 except the first one */
 }

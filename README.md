@@ -37,4 +37,5 @@ active member of the JEFF and SINBAD nuclear-data communities.
 - **Award-winning poster (2024)** — [JdT 2024 Poster (IRSN)](files/Monleon_2024_JdT_poster.pdf)
 - **Master's thesis (2023)** — [Reducing Spectrum-Driven Uncertainties with Variance Reduction Techniques](files/Monleon_2023_MasterThesis_SCK-CEN.pdf) · SCK CEN, Belgium
 - **Master research (2023)** — [Enhancing the EXFOR nuclear data library with Machine Learning Techniques](files/Monleon_2023_MasterResearch_UPM.pdf)
+- **KIKA app** — [kika-release](https://github.com/juanmonleon/kika-release) · cross-platform desktop app for nuclear-data visualization, sensitivity analysis, and uncertainty quantification (built on [kika-nd](https://github.com/juanmonleon/kika))
 - **Degree certificates** — [MII](files/Monleon_Master_MII_UPM.pdf) · [MUCTN](files/Monleon_Master_MUCTN_UPM.pdf) · [GITI](files/Monleon_Bachelor_GITI_UPM.pdf)

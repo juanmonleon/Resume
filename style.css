@@ -88,7 +88,12 @@ header {
 }
 
 section {
-    margin: auto 1em 2em 2em;
+    margin: 0 1em 1.5em 2em;
+}
+
+#mainLeft > section:first-of-type,
+#mainRight > section:first-of-type {
+    margin-top: 1em;
 }
 
 .subsection-label {
@@ -108,11 +113,9 @@ section {
     color: #555;
 }
 
-/* References — compact 3-column grid at the end of the right column */
-.references-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
+/* References — stacked entries in the left column */
+.reference-entry {
+    margin-bottom: 0.6em;
 }
 .reference-entry p {
     margin: 0;
@@ -125,14 +128,6 @@ section {
 .reference-entry .reference-email {
     margin-top: 0.2em;
     word-break: break-all;
-}
-
-.contact-section {
-    margin-top: 0.5em;  /* Adjust this value as needed to match your desired spacing */
-}
-
-.about-section {
-    margin-top: 1.5em;  /* Increase this value if you want more space */
 }
 
 #mainLeft {
@@ -222,8 +217,8 @@ ul li {
     border-radius: 5px;
     height: 8px;
     width: 150px;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-top: 0.4em;
+    margin-bottom: 0.5em;
     position: relative;
     display: block; /* Ensure the bar is displayed as a block element */
 }
@@ -315,7 +310,7 @@ ul li {
 }
 
 .work-entry ul {
-    margin-bottom: 2em;  /* Add more space after each list */
+    margin-bottom: 1em;  /* Space after each list */
 }
 
 .thesis-title {
@@ -405,11 +400,20 @@ a {
     .award-entry,
     .community-entry,
     .publication-item,
-    .training-item {
+    .training-item,
+    .reference-entry {
         page-break-inside: avoid;
     }
 
-    /* Keep subsection titles with the content that follows */
+    /* Small sections that shouldn't split a heading from its content */
+    .publications-section,
+    .software-tools-section,
+    .references-section {
+        page-break-inside: avoid;
+    }
+
+    /* Keep section/subsection titles with the content that follows */
+    h2,
     h3,
     .subsection-label {
         page-break-after: avoid;
@@ -448,22 +452,6 @@ a {
         margin-bottom: 1.5em;     /* Slightly reduced section spacing */
     }
 
-    /* Add margin before Languages section in left column */
-    .languages-section h2 {  /* Languages section */
-        margin-top: 1.5em;
-    }
-
-    /* Add padding before Publications section in right column */
-    .publications-section {
-        padding-top: 1.5em; /* Add top padding to ensure space */
-        /* Optionally prevent margin collapse */
-        overflow: hidden;
-    }
-
-    /* If needed, adjust the h2 margin as well */
-    .publications-section h2 {  /* Publications section */
-        margin-top: 0; /* Reset to avoid conflict with padding */
-    }
 }
 
 

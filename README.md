@@ -1,6 +1,6 @@
 # Juan Antonio Monleón de la Lluvia
 
-**Nuclear Engineer · PhD Candidate in Nuclear Data & Neutronics @ ASNR (formerly IRSN), France**  
+**Nuclear Engineer · PhD Candidate in Nuclear Data & Neutronics @ ASNR, France**  
 *Thesis: "Nuclear-Data Uncertainty Quantification for PWR Vessel Aging with a ⁵⁶Fe Elastic-Scattering Evaluation" · defence scheduled 1 October 2026*
 
 Working on nuclear data and on the sensitivity and uncertainty analysis of

@@ -453,6 +453,15 @@ a {
         page-break-inside: avoid;
     }
 
+    /* A sidebar section is short enough to always travel as one block:
+       splitting one leaves an orphan heading and a half-drawn language bar. */
+    #mainLeft section,
+    .language-item,
+    .work-entry {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
     /* Keep section/subsection titles with the content that follows */
     h2,
     h3,

@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 14.5px;
     max-width: 960px;
     margin: auto;
     background-color: #fafafa; /* Light Gray background for the whole page */
@@ -23,7 +23,7 @@ body {
 
 h1 {
     font-size: 2.5em;
-    letter-spacing: .3em;
+    letter-spacing: .2em;
     padding-top: 0.2em;
     padding-bottom: 0.7em;
     color: #ffffff; /* Navy color for main headings */
@@ -39,6 +39,28 @@ h1 br {
 h1 strong {
     font-weight: 800;  /* Make the bold part more prominent */
     color: #ffffff;
+}
+
+/* Language switcher in the header */
+.lang-switch {
+    font-size: 0.85em;
+    letter-spacing: 0.08em;
+    margin: 0.5em 0 0;
+    color: #ffffff;
+}
+
+.lang-switch a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.lang-switch a:hover {
+    text-decoration: underline;
+}
+
+.lang-switch .current {
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* Consistent h2 Styling */
@@ -91,6 +113,18 @@ section {
     margin: 0 1em 1.5em 2em;
 }
 
+/* The generic 2em left margin costs too much of a 30%-wide column */
+#mainLeft section {
+    margin-left: 1em;
+    margin-right: 0.6em;
+}
+
+/* Dates in the narrow column don't need the same reserved width as the right one */
+#mainLeft .education-date {
+    min-width: 74px;
+    white-space: nowrap;
+}
+
 #mainLeft > section:first-of-type,
 #mainRight > section:first-of-type {
     margin-top: 1em;
@@ -140,7 +174,10 @@ section {
 
 a.publication-link {
     color: #2c3e50; /* Navy color for links */
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
     font-weight: bold;
 }
 a.publication-link:hover {
@@ -162,7 +199,7 @@ hr {
 }
 
 p {
-    margin: .2em auto;
+    margin: .2em 0;
     line-height: 1.6; /* Improved readability */
 }
 
@@ -247,6 +284,7 @@ ul li {
     color: #666;
     min-width: 85px;
     text-align: right;
+    white-space: nowrap;
 }
 
 /* Education section styling */
@@ -288,6 +326,7 @@ ul li {
     color: #666;
     min-width: 85px;
     text-align: right;
+    white-space: nowrap;
 }
 
 /* Work Experience section styling */
@@ -307,6 +346,7 @@ ul li {
 .institution-date {
     min-width: 140px;
     text-align: right;
+    white-space: nowrap;
 }
 
 .work-entry ul {
@@ -339,6 +379,7 @@ ul li {
     color: #666;
     min-width: 85px;
     text-align: right;
+    white-space: nowrap;
 }
 
 /* Ensure background colors are printed */
@@ -428,7 +469,8 @@ a {
     /* Uniform Link Colors in Print */
     a.publication-link{
         color: #2c3e50 !important; /* Ensure color is consistent in print */
-        text-decoration: none;
+        text-decoration: underline;
+        text-decoration-color: var(--accent);
     }
 
     a.contact-link {

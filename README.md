@@ -52,7 +52,7 @@ nuclear-data communities.
 
 ## Publications & supporting documents
 
-- **Journal paper (2025)** — [Towards Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](files/Monleon_2025_NSE_preprint.pdf) · *Nuclear Science and Engineering* · [DOI](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048)
+- **Journal paper (2025)** — [Toward Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](files/Monleon_2025_NSE_preprint.pdf) · *Nuclear Science and Engineering* · [DOI](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048)
 - **Conference paper (2026)** — [Impact of Elastic Scattering Angular Distribution Covariances on Fast Neutron Fluence; Application to ⁵⁶Fe](files/Monleon_2026_PHYSOR_elastic-covariances.pdf) · PHYSOR 2026
 - **Conference paper (2026, co-author)** — [Sensitivity Coefficients of a Single Response Function in Fixed-Source Calculations Using SERPENT2 and MCNP6](files/Monleon_2026_PHYSOR_sensitivity-coefficients.pdf) · PHYSOR 2026
 - **Conference paper (2026, co-author)** — [Propagation of Angular Distribution Uncertainties in Vessel Fluence Calculations](files/Monleon_2026_PHYSOR_angular-uncertainties.pdf) · PHYSOR 2026

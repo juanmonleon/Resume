@@ -180,6 +180,10 @@ a.publication-link {
     text-underline-offset: 2px;
     font-weight: bold;
 }
+/* In publication/conference lists only the author's own name is bold */
+.publication-content a.publication-link {
+    font-weight: normal;
+}
 a.publication-link:hover {
     text-decoration: underline;
 }

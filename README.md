@@ -52,7 +52,7 @@ nuclear-data communities.
 
 ## Publications & supporting documents
 
-- **Journal paper (2025)** — [Toward Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](files/Monleon_2025_NSE_preprint.pdf) · *Nuclear Science and Engineering* · [DOI](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048)
+- **Journal paper (2025)** — [Toward Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048) · *Nuclear Science and Engineering* · [HAL](https://hal.science/hal-05281135)
 - **Conference paper (2026)** — [Impact of Elastic Scattering Angular Distribution Covariances on Fast Neutron Fluence; Application to ⁵⁶Fe](files/Monleon_2026_PHYSOR_elastic-covariances.pdf) · PHYSOR 2026
 - **Conference paper (2026, co-author)** — [Sensitivity Coefficients of a Single Response Function in Fixed-Source Calculations Using SERPENT2 and MCNP6](files/Monleon_2026_PHYSOR_sensitivity-coefficients.pdf) · PHYSOR 2026
 - **Conference paper (2026, co-author)** — [Propagation of Angular Distribution Uncertainties in Vessel Fluence Calculations](files/Monleon_2026_PHYSOR_angular-uncertainties.pdf) · PHYSOR 2026
@@ -60,6 +60,6 @@ nuclear-data communities.
 - **Conference paper (2024)** — [Sensitivity Analysis and Uncertainty Quantification in PWR Irradiation Ageing-like problems](files/Monleon_2024_RPSD_conference.pdf) · ANS Winter Conference RPSD, Orlando
 - **Award-winning poster (2024)** — [JdT 2024 Poster (IRSN)](files/Monleon_2024_JdT_poster.pdf)
 - **Master's thesis (2023)** — [Reducing Spectrum-Driven Uncertainties with Variance Reduction Techniques](files/Monleon_2023_MasterThesis_SCK-CEN.pdf) · SCK CEN, Belgium
-- **Master research (2023)** — [Enhancing the EXFOR nuclear data library with Machine Learning Techniques](files/Monleon_2023_MasterResearch_UPM.pdf)
-- **KIKA app** — [kika-app.com](https://kika-app.com/) · desktop workspace that opens ENDF, ACE, EXFOR and SDF files, drives a local NJOY installation, reads MCNP and Serpent runs, and carries the results into nuclear-data sampling, sensitivity and uncertainty analysis (built on [kika-nd](https://github.com/juanmonleon/kika), the open-source Python library I wrote to provide its computational core)
+- **Master research (2023)** — [Enhancing the EXFOR nuclear data library using Machine Learning Techniques](files/Monleon_2023_MasterResearch_UPM.pdf)
+- **KIKA app** — [kika-app.com](https://kika-app.com/) · desktop application for nuclear-data processing and analysis: ENDF, ACE, EXFOR and SDF data, NJOY processing, MCNP and Serpent outputs, and nuclear-data sampling, sensitivity and uncertainty analysis
 - **Degree certificates** — [MII](files/Monleon_Master_MII_UPM.pdf) · [MUCTN](files/Monleon_Master_MUCTN_UPM.pdf) · [GITI](files/Monleon_Bachelor_GITI_UPM.pdf)

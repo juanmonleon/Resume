@@ -54,6 +54,7 @@ nuclear-data communities.
 
 - **PhD thesis (2026)** — [Nuclear Data Uncertainty Quantification for PWR Vessel Aging with a ⁵⁶Fe Elastic-Scattering Evaluation](files/Monleon_2026_PhD_Thesis_Paris-Saclay.pdf) · Université Paris-Saclay
 - **Journal paper (2025)** — [Toward Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048) · *Nuclear Science and Engineering* · [HAL](https://hal.science/hal-05281135)
+- **Conference paper (2026)** — [Data-driven evaluation of ⁵⁶Fe elastic-scattering angular distributions and covariances](files/Monleon_2026_WONDER_56Fe-elastic-evaluation.pdf) · WONDER 2026, Aix-en-Provence
 - **Conference paper (2026)** — [Impact of Elastic Scattering Angular Distribution Covariances on Fast Neutron Fluence; Application to ⁵⁶Fe](files/Monleon_2026_PHYSOR_elastic-covariances.pdf) · PHYSOR 2026
 - **Conference paper (2026, co-author)** — [Sensitivity Coefficients of a Single Response Function in Fixed-Source Calculations Using SERPENT2 and MCNP6](files/Monleon_2026_PHYSOR_sensitivity-coefficients.pdf) · PHYSOR 2026
 - **Conference paper (2026, co-author)** — [Propagation of Angular Distribution Uncertainties in Vessel Fluence Calculations](files/Monleon_2026_PHYSOR_angular-uncertainties.pdf) · PHYSOR 2026

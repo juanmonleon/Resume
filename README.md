@@ -1,7 +1,7 @@
 # Juan Antonio Monleón de la Lluvia
 
 **Nuclear Engineer · PhD in Nuclear Physics (Université Paris-Saclay) · Research in Nuclear Data & Neutronics @ ASNR, France**  
-*Thesis: ["Nuclear Data Uncertainty Quantification for PWR Vessel Aging with a ⁵⁶Fe Elastic-Scattering Evaluation"](files/Monleon_2026_PhD_Thesis_Paris-Saclay.pdf) · defended 1 October 2026*
+*Thesis: ["Nuclear Data Uncertainty Quantification for PWR Vessel Aging with a ⁵⁶Fe Elastic-Scattering Evaluation"](files/Monleon_2026_PhD_Thesis_Paris-Saclay.pdf) · defended 1 October 2026 · [HAL](https://theses.hal.science/tel-05879702) · [theses.fr](https://theses.fr/2026UPASP088)*
 
 Working on nuclear data and on the sensitivity and uncertainty analysis of
 neutronic simulations, from covariance evaluation to their propagation in
@@ -52,7 +52,7 @@ nuclear-data communities.
 
 ## Publications & supporting documents
 
-- **PhD thesis (2026)** — [Nuclear Data Uncertainty Quantification for PWR Vessel Aging with a ⁵⁶Fe Elastic-Scattering Evaluation](files/Monleon_2026_PhD_Thesis_Paris-Saclay.pdf) · Université Paris-Saclay
+- **PhD thesis (2026)** — [Nuclear Data Uncertainty Quantification for PWR Vessel Aging with a ⁵⁶Fe Elastic-Scattering Evaluation](files/Monleon_2026_PhD_Thesis_Paris-Saclay.pdf) · Université Paris-Saclay · [HAL](https://theses.hal.science/tel-05879702) · [theses.fr](https://theses.fr/2026UPASP088)
 - **Journal paper (2025)** — [Toward Efficient Nuclear Data Uncertainty Quantification in Radiation Shielding Calculations](https://www.tandfonline.com/doi/full/10.1080/00295639.2025.2510048) · *Nuclear Science and Engineering* · [HAL](https://hal.science/hal-05281135)
 - **Conference paper (2026)** — [Data-driven evaluation of ⁵⁶Fe elastic-scattering angular distributions and covariances](files/Monleon_2026_WONDER_56Fe-elastic-evaluation.pdf) · WONDER 2026, Aix-en-Provence
 - **Conference paper (2026)** — [Impact of Elastic Scattering Angular Distribution Covariances on Fast Neutron Fluence; Application to ⁵⁶Fe](files/Monleon_2026_PHYSOR_elastic-covariances.pdf) · PHYSOR 2026
